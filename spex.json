@@ -1,0 +1,335 @@
+[
+    {
+        "locations": ["Göta kanal"],
+        "title": "Göta kanal",
+        "productionYear": 1981,
+        "plotYear": 1810
+     },
+     {
+        "locations": ["Västfronten"],
+        "title": "Den flygande cirkusen",
+        "productionYear": 1982,
+        "plotYear": 1914
+     },
+     {
+        "locations": ["Mörkaste Afrika"],
+        "title": "Darwin",
+        "productionYear": 1983,
+        "plotYear": 1860
+     },
+     {
+        "locations": ["England"],
+        "title": "Kung mot sin vilja",
+        "productionYear": 1984,
+        "plotYear": 650
+     },
+     {
+        "locations": ["Stockholm"],
+        "title": "Mysteriet Wasa",
+        "productionYear": 1985,
+        "plotYear": 1625
+     },
+     {
+        "locations": ["Rom"],
+        "title": "Det romerska rikets nergång och fall",
+        "productionYear": 1986,
+        "plotYear": 395
+     },
+     {
+        "locations": ["Peru"],
+        "title": "Guld versus guano",
+        "productionYear": 1987,
+        "plotYear": 1532
+     },
+     {
+        "locations": ["Atlanten"],
+        "title": "En bror för mycket",
+        "productionYear": 1988,
+        "plotYear": 1497
+     },
+     {
+        "locations": ["Moskva", "Kinesiska gränsen"],
+        "title": "Gula faran",
+        "productionYear": 1988,
+        "plotYear": 1904
+     },
+     {
+        "locations": ["Paris"],
+        "title": "Panamaskandalen",
+        "productionYear": 1989,
+        "plotYear": 1890
+     },
+     {
+        "locations": ["Stockholm"],
+        "title": "Skottet på operan",
+        "productionYear": 1990,
+        "plotYear": 1792
+     },
+     {
+        "locations": ["Wittenberg"],
+        "title": "Martin och Heligheten",
+        "productionYear": 1991,
+        "plotYear": 1517
+     },
+     {
+
+        "locations": ["Washington", "Vilda västern", "Nevada"],
+        "title": "Patentet",
+        "productionYear": 1992,
+        "plotYear": 1865
+     },
+     {
+        "locations": ["Göteborg"],
+        "title": "Terminator IIB",
+        "productionYear": 1992,
+        "plotYear": 1828
+     },
+     {
+        "locations": ["Venedig"],
+        "title": "Pjäsen som sköts upp",
+        "productionYear": 1993,
+        "plotYear": 1295
+     },
+     {
+        "locations": ["Indien"],
+        "title": "Indien kastar loss",
+        "productionYear": 1994,
+        "plotYear": 1915
+     },
+     {
+        "locations": ["Stockholm"],
+        "title": "1520",
+        "productionYear": 1995,
+        "plotYear": 1520
+     },
+     {
+        "locations": ["Paris"],
+        "title": "Den småfranska revolutionen",
+        "productionYear": 1996,
+        "plotYear": 1789
+     },
+     {
+
+        "locations": ["Peking"],
+        "title": "Den näst siste kejsaren",
+        "productionYear": 1997,
+        "plotYear": 1898
+     },
+     {
+
+        "locations": ["London"],
+        "title": "Dramer mot dramer",
+        "productionYear": 1998,
+        "plotYear": 1588
+     },
+     {
+        "locations": ["Sparta", "Troja"],
+        "title": "Illvilliaden",
+        "productionYear": 1999,
+        "plotYear": -1150
+     },
+     {
+        "locations": ["Paris", "London", "Trafalgar"],
+        "title": "Trafalgar",
+        "productionYear": 1999,
+        "plotYear": 1805
+     },
+     {
+        "locations": ["Stockholm"],
+        "title": "Brödrafolkens gräl",
+        "productionYear": 2000,
+        "plotYear": 1805
+     },
+     {
+        "locations": ["Florens"],
+        "title": "Fursten till Amerika",
+        "productionYear": 2001,
+        "plotYear": 1492
+     },
+     {
+        "locations": ["Paris", "Jerusalem", "London"],
+        "title": "Tusen och en watt",
+        "productionYear": 2002,
+        "plotYear": 1189
+     },
+     {
+        "locations": ["Alexandria"],
+        "title": "Caesars vägskäl",
+        "productionYear": 2002,
+        "plotYear": 1189
+     },
+     {
+        "locations": ["Stockholm"],
+        "title": "Kristina och kardinalfelet",
+        "productionYear": 2003,
+        "plotYear": 1654
+     },
+     {
+        "locations": ["Birka"],
+        "title": "I möjd och lust",
+        "productionYear": 2004,
+        "plotYear": 830
+     },
+     {
+        "locations": ["Tansylvanien"],
+        "title": "Tramsylvanien",
+        "productionYear": 2004,
+        "plotYear": 1850
+     },
+     {
+        "locations": ["Sankt Petersburg"],
+        "title": "Tsarligt begär",
+        "productionYear": 2005,
+        "plotYear": 1917
+     },
+     {
+        "locations": ["Haarlem"],
+        "title": "Tulpanfeber",
+        "productionYear": 2006,
+        "plotYear": 1637
+     },
+     {
+        "locations": ["Washington", "Arizona"],
+        "title": "Kvalet efter valet",
+        "productionYear": 2007,
+        "plotYear": 1889
+     },
+     {
+        "locations": ["Rom"],
+        "title": "Hanibal",
+        "productionYear": 2007,
+        "plotYear": -217
+     },
+     {
+        "locations": ["Linköping"],
+        "title": "Härifrån till heligheten",
+        "productionYear": 2008,
+        "plotYear": 1335
+     },
+     {
+        "locations": ["Stockholm", "Paris", "Franskt värdshus", "Tyskt värdshus", "Danskt värdshus"],
+        "title": "Kungarna och axelmakten",
+        "productionYear": 2009,
+        "plotYear": 1810
+     },
+     {
+        "title": "Göta kanal 2",
+        "locations": ["Stockholm", "Göta kanal"],
+        "productionYear": 2009,
+        "plotYear": 0
+     },
+     {
+        "title": "En studie i dött",
+        "locations": ["London"],
+        "productionYear": 2010,
+        "plotYear": 0
+     },
+     {
+        "title": "Karl XII",
+        "locations": ["Stockholm", "Europeiskt fälttåg", "Bender"],
+        "productionYear": 2011,
+        "plotYear": 0
+     },
+     {
+        "title": "Robin Hood",
+        "locations": ["Nottingham"],
+        "productionYear": 2012,
+        "plotYear": 0
+     },
+     {
+        "title": "Världsomställningen i Paris",
+        "locations": ["Paris"],
+        "productionYear": 2012,
+        "plotYear": 0
+     },
+     {
+        "title": "Släktskapsresan",
+        "locations": ["London", "Stilla havet", "Australien"],
+        "productionYear": 2013,
+        "plotYear": 0
+     },
+     {
+        "title": "Stjärnornas intrig",
+        "locations": ["Florida"],
+        "productionYear": 2014,
+        "plotYear": 0
+      },
+      {
+         "title": "Ludvig II och Euro-visionen",
+         "locations": ["Bayern"],
+         "productionYear": 2014,
+         "plotYear": 0
+      },
+      {
+        "title": "Jeanne d'Arc",
+        "locations": ["Paris"],
+        "productionYear": 2015,
+        "plotYear": 0
+      },
+      {
+        "title": "Lawrence i Mumiedalen",
+        "locations": ["Alexandria", "Konungarnas dal"],
+        "productionYear": 2016,
+        "plotYear": 0
+      },
+      {
+        "title": "Påvarna och troföljden",
+        "locations": ["Rom"],
+        "productionYear": 2017,
+        "plotYear": 0
+      },
+      {
+         "title": "Revolutionärerna",
+         "locations": ["Boston", "Paris"],
+         "productionYear": 2017,
+         "plotYear": 0
+      },
+      {
+        "title": "Staten och idealet",
+        "locations": ["Aten"],
+        "productionYear": 2018,
+        "plotYear": 0
+      },
+      {
+        "title": "Den industriella evolutionen",
+        "locations": ["London"],
+        "productionYear": 2019,
+        "plotYear": 0
+      },
+      {
+        "title": "Marco Polos japanska resor",
+        "locations": ["Kyoto"],
+        "productionYear": 2020,
+        "plotYear": 0
+      },
+      {
+        "title": "Mysteriet på Versailles",
+        "locations": ["Paris"],
+        "productionYear": 2022,
+        "plotYear": 0
+      },
+      {
+        "title": "Drakskepp och druider",
+        "locations": ["Irland"],
+        "productionYear": 2023,
+        "plotYear": 0
+      },
+      {
+        "title": "Rim och ranson",
+        "locations": ["Stockholm"],
+        "productionYear": 2024,
+        "plotYear": 0
+      },
+      {
+        "title": "Brott och skratt",
+        "locations": ["Chicago"],
+        "productionYear": 2024,
+        "plotYear": 0
+      },
+      {
+        "title": "Pirat mot stat",
+        "locations": ["Sydkinesiska sjön", "Kinesisk vildmark"],
+        "productionYear": 2025,
+        "plotYear": 0
+      }
+]

@@ -1,0 +1,80 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="//unpkg.com/globe.gl"></script>
+  <!--  <script src="../../dist/globe.gl.js"></script>-->
+  </head>
+  
+  <body>
+  <div id="globeViz"></div>
+  <div id="location-info-panel">
+    <div class="location-info-title">Spexplatser</div>
+    <div id="location-info-container"></div>
+  </div>
+  <script type="module">
+    const markerSvg = `<svg viewBox="-4 0 36 36">
+      <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
+      <circle fill="#83D0F0" cx="14" cy="14" r="7"></circle>
+    </svg>`;
+
+    function filterLocations(spexData, locationData) {
+      spexData.forEach(
+        (spex) => (
+          spex["locations"].forEach(
+            function(location) {
+              if (!("spex" in locationData[location])) {
+                locationData[location]["spex"] = []
+              }
+              locationData[location]["spex"].push(spex["title"])
+            }
+          )
+        )
+      )
+      
+      return Object.keys(locationData).map(location => ({
+        location: location,
+        lat: locationData[location]["lat"],
+        lng: locationData[location]["lng"],
+        spex: locationData[location]["spex"]
+      }));
+    }
+
+    function showLocation(location) {
+      var element = document.getElementById("location-info-container");
+      if (element) {
+        element.innerHTML = "<div class='location-name'>" + location.location + "</div>";
+        location.spex.forEach(spex => element.innerHTML += "<div class='location-spex'>" + spex + "</div>")
+      } 
+    }
+
+    let spexData;
+    let locationData;
+    var locations = [];
+
+    var globe = new Globe(document.getElementById('globeViz'))
+      .globeTileEngineUrl((x, y, l) => `https://tile.openstreetmap.org/${l}/${x}/${y}.png`)
+      .htmlElement(d => {
+        const el = document.createElement('div');
+        el.innerHTML = markerSvg;
+        el.style.color = '#0081C6';
+        el.style.width = '30px';
+  
+        el.style['pointer-events'] = 'auto';
+        el.style.cursor = 'pointer';
+        el.onclick = () => showLocation(d);
+        return el;
+      });
+
+    
+    fetch('./spex.json')
+      .then(response => response.json())
+      .then(data => spexData = data)
+      .then(() => fetch('./locations.json'))
+      .then(response => response.json())
+      .then(data => locationData = data)
+      .then(() => filterLocations(spexData, locationData))
+      .then((l) => globe.htmlElementsData(l))
+      .catch(error => console.log(error))
+  
+    
+  </script>
+  </body>
