@@ -7,11 +7,13 @@
   <body>
   <div id="globeViz"></div>
   <div id="location-info-panel">
-    <div class="location-info-title">Spexplatser</div>
-    <div id="location-info-container"></div>
+    <img src="spex.png">
+    <div id="location-info-container">
+      <div class="location-name">Platser</div>
+    </div>
   </div>
   <script type="module">
-    const markerSvg = `<svg viewBox="-4 0 36 36">
+    const markerSvg = `<svg viewBox="-4 0 36 36" class="shadow">
       <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
       <circle fill="#83D0F0" cx="14" cy="14" r="7"></circle>
     </svg>`;
@@ -43,7 +45,14 @@
       if (element) {
         element.innerHTML = "<div class='location-name'>" + location.location + "</div>";
         location.spex.forEach(spex => element.innerHTML += "<div class='location-spex'>" + spex + "</div>")
-      } 
+      }
+    }
+
+    function clearLocation(location) {
+      var element = document.getElementById("location-info-container");
+      if (element) {
+        element.innerHTML = "<div class='location-name'>Platser</div>";
+      }
     }
 
     let spexData;
@@ -52,12 +61,12 @@
 
     var globe = new Globe(document.getElementById('globeViz'))
       .globeTileEngineUrl((x, y, l) => `https://tile.openstreetmap.org/${l}/${x}/${y}.png`)
+      .onGlobeRightClick(() => clearLocation())
       .htmlElement(d => {
         const el = document.createElement('div');
         el.innerHTML = markerSvg;
         el.style.color = '#0081C6';
-        el.style.width = '30px';
-  
+        el.style.width = 30 + (Math.ceil((d.spex.length - 1) / 2) * 5) + "px";
         el.style['pointer-events'] = 'auto';
         el.style.cursor = 'pointer';
         el.onclick = () => showLocation(d);

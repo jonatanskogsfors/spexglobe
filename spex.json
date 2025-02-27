@@ -42,7 +42,7 @@
         "plotYear": 1532
      },
      {
-        "locations": ["Atlanten"],
+        "locations": ["Lisabon", "Atlanten"],
         "title": "En bror för mycket",
         "productionYear": 1988,
         "plotYear": 1497
@@ -54,7 +54,7 @@
         "plotYear": 1904
      },
      {
-        "locations": ["Paris"],
+        "locations": ["Paris", "Panama"],
         "title": "Panamaskandalen",
         "productionYear": 1989,
         "plotYear": 1890
@@ -66,7 +66,7 @@
         "plotYear": 1792
      },
      {
-        "locations": ["Wittenberg"],
+        "locations": ["Mansfeld", "Högra Alperna", "Wittenberg"],
         "title": "Martin och Heligheten",
         "productionYear": 1991,
         "plotYear": 1517
@@ -189,7 +189,7 @@
         "plotYear": 1637
      },
      {
-        "locations": ["Washington", "Arizona"],
+        "locations": ["Washington", "Grand Canyon"],
         "title": "Kvalet efter valet",
         "productionYear": 2007,
         "plotYear": 1889
